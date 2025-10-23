@@ -8,6 +8,18 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+## [2025.10.23]
+
+### Added
+
+- Designed kernel and enhanced interfaces for Slot Machine component
+
+### Updated
+
+- Changed design to include Secondary Methods
+- Changed design to consider instance methods to keep track of score
+- Changed design to consider instance methods to keep track of the int array representing the spin results
+
 ## [2024.12.30]
 
 - Added table-based rubrics to all 6 parts of the project
