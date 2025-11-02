@@ -8,6 +8,16 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+## [2025.11.07]
+
+### Added
+
+- Designed abstract class for Slot Machine component
+
+### Updated
+
+- Changed design to include use instance methods for SlotMachine according to the contract
+
 ## [2024.12.30]
 
 - Added table-based rubrics to all 6 parts of the project
