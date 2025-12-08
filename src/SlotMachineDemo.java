@@ -10,12 +10,12 @@ import components.simplewriter.SimpleWriter1L;
  * @author Irene Suh
  *
  */
-public final class SlotMachine {
+public final class SlotMachineDemo {
 
     /**
      * No argument constructor--private to prevent instantiation.
      */
-    private SlotMachine() {
+    private SlotMachineDemo() {
 
     }
 
