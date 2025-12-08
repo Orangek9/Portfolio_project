@@ -7,6 +7,38 @@ import components.simplewriter.SimpleWriter;
  * @author Irene Suh
  */
 public abstract class SlotMachineSecondary implements SlotMachine {
+
+    /**
+     * Useful constant, not a magic number: 10.
+     */
+    private static final int TEN = 10;
+
+    // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder("(");
+        sb.append("win: ");
+        sb.append(this.isWin());
+        sb.append(")");
+        return sb.toString();
+    }
+
+    // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
+    @Override
+    public final int hashCode() {
+        int hash = 1;
+        hash = TEN * hash + Boolean.hashCode(this.isWin());
+
+        return hash;
+    }
+
+    // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
+    @Override
+    public boolean equals(Object obj) {
+        SlotMachine other = (SlotMachine) obj;
+        return this.isWin() == other.isWin();
+    }
+
     // CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN
     @Override
     public void gameLoop(SimpleReader in, SimpleWriter out) {
@@ -15,8 +47,6 @@ public abstract class SlotMachineSecondary implements SlotMachine {
         boolean isPlaying = true;
         boolean validAns = false;
         int score = 0;
-
-        out.println("Slot Machine");
 
         while (isPlaying) {
             out.println("Press enter to spin!");

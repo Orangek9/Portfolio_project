@@ -29,5 +29,4 @@ public interface SlotMachine extends SlotMachineKernel {
      *          current score if not
      */
     int score(int[] spin);
-
 }

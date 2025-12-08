@@ -8,6 +8,16 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
+## 2025.11.21
+
+### Added
+
+- Designed kernel implementation for SlotMachine component
+
+### Updated
+
+- Changed design to include convention and correspondance to represent an int array for SlotMachine2
+- Changed SlotMachineSecondary to include common methods
 ## [2025.11.07]
 
 ### Added
