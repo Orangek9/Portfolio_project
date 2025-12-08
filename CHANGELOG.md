@@ -18,6 +18,26 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include convention and correspondance to represent an int array for SlotMachine2
 - Changed SlotMachineSecondary to include common methods
+## [2025.11.07]
+
+### Added
+
+- Designed abstract class for Slot Machine component
+
+### Updated
+
+- Changed design to include use instance methods for SlotMachine according to the contract
+## [2025.10.23]
+
+### Added
+
+- Designed kernel and enhanced interfaces for Slot Machine component
+
+### Updated
+
+- Changed design to include Secondary Methods
+- Changed design to consider instance methods to keep track of score
+- Changed design to consider instance methods to keep track of the int array representing the spin results
 
 ## [2024.12.30]
 

@@ -1,8 +1,8 @@
 # Portfolio Part 4: Abstract Class
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Irene Suh
+- **Dot Number**: Suh.253
+- **Due Date**: 11/7 @ 12:40 PM EST
 
 ## Assignment Overview
 
@@ -15,7 +15,7 @@ NaturalNumber component, the abstract class would be called
 
 ```java
 public abstract class NaturalNumberSecondary implements NaturalNumber {
-   ...
+
 }
 ```
 
