@@ -1,10 +1,12 @@
+package components.slotmachine;
+
 import components.simplewriter.SimpleWriter;
 
 /**
  * {@code SlotMachine} implementations of primary methods.
  *
  * @convention $this.rep != null && this.rep.length == 3 && 1 <= $this.rep[i] <=
- *             9 for all of i
+ *             9 for all each valid index i
  * @correspondence this = $this.rep
  */
 public class SlotMachine2 extends SlotMachineSecondary {
@@ -112,6 +114,15 @@ public class SlotMachine2 extends SlotMachineSecondary {
     @Override
     public final boolean isWin() {
         return this.rep[0] == this.rep[1] && this.rep[1] == this.rep[2];
+    }
+
+    @Override
+    public final void setSpin(int[] spin) {
+        assert spin != null : "Violation of : spin is not null";
+        assert spin.length == ARRAY_LENGTH : "Violation of : spin.length == 3";
+        for (int i = 0; i < ARRAY_LENGTH; i++) {
+            this.rep[i] = spin[i];
+        }
     }
 
 }

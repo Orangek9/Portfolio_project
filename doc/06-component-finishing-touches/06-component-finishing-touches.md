@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Irene Suh
+- **Dot Number**: Suh.253
+- **Due Date**: 12/10 @ 12:40 PM EST
 
 ## Assignment Overview
 
@@ -49,8 +49,6 @@ Many of these additional techniques are somewhat out of the scope of this
 course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -140,8 +138,6 @@ merges, you will need to pull the changes from main into your current branch
 to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
-
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 
@@ -307,18 +303,18 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I think I understand software development better because I was able to complete a project step by step. Completing each part of the project every 2 weeks helped me break down each task to make it more manageable. Implementing each part also allowed me to learn how each part will contribute to the final product, where all the parts will be combined. It helped me learn more about the software development process, from brainstorming and planning to actual implementation and refining.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+The portfolio project made me realize the gaps in my knowledge on understanding interfaces, specifically connecting them together. Actually programming a component rather than learning about it in lessons was more difficult than I anticipated. However, by completing to project, I was forced to understand how each part is connected and how each part contributed to the finished product. The project helped me fill in the gaps in implementing interfaces, abstraction, and completing a fully functional component.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+At first, I was overwhelmed and confused about how I would complete this project because I didn't understand how everything was supposed to work. So at first, my perspective on software development was that I was not the best at it yet and that this project would be difficult. However, after completing the project and slowly understanding how the component pieced together, it made me feel better about software development and building components.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +322,30 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+Through this process, I picked up organizational skills by writing my interfaces and sorting the methods. I also learned how to organize the files in the directory to create a component. In addition to organization skills, I learned problem-solving skills while running into errors in my code and implementing the component methods. The project helped me understand the process of completing a project in smaller steps every two-weeks.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- Designed and organized a software component while learning about interfaces and abstraction.
+- Developed project-planning skills by dividing the project  into smaller tasks
+- Developed organizational skills through documentation and component organization.
+- Improved problem-solving skills through code implementation and debugging.
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I don't hate the topic I picked. I chose this topic because I enjoyed making games in Unity and wanted to create something fun. The project affected my career trajectory by making me want to explore other topics. It made me curious about how completing a different component might have changed my perspective and made me want to branch out into other areas. In this way, my career trajectory was affected by making me want to explore other fields.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+Some things I could do to continue on my career trajectory is exploring different fields in softtware such as web developement, artificial intelligence, cybersecurity, etc. I can explore by applying to different internships, attending hackathons, and exploring different career paths for people in this field. By exploring these many areas, I hope to find a topic I am confident I am interested in. Some mentors I can contact to help me stay on my path are my software professor, including Jeremy Grifski, for help and advice if I start to feel conflicted about about my path.
 
 ### Changelog
-
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.

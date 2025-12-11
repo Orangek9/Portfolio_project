@@ -8,7 +8,23 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
-## 2025.11.21
+## [2025.12.20]
+
+### Added
+
+- Designed test suite for SlotMachine component
+- Designed two different use cases for SlotMachine component
+
+### Updated
+
+- Changed design to include a setSpin() method to improve testing.
+- Changed design to remove int[] spin variable from score(), as it was not needed.
+- Changed SlotMachineDemo to use the slotMachine component.
+- Organized scripts into respective folders
+- Added an int instance variable totalScore in SlotMachine to represent the current total score.
+- Updated main README.md
+
+## [2025.11.21]
 
 ### Added
 
@@ -18,6 +34,7 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include convention and correspondance to represent an int array for SlotMachine2
 - Changed SlotMachineSecondary to include common methods
+
 ## [2025.11.07]
 
 ### Added
@@ -27,6 +44,7 @@ the following form: YYYY.0M.0D.
 ### Updated
 
 - Changed design to include use instance methods for SlotMachine according to the contract
+
 ## [2025.10.23]
 
 ### Added
@@ -39,9 +57,33 @@ the following form: YYYY.0M.0D.
 - Changed design to consider instance methods to keep track of score
 - Changed design to consider instance methods to keep track of the int array representing the spin results
 
+## [2025.10.09]
+
+### Added
+
+- Designed a proof of concept for slot machine component
+
+### Updated
+
+- Changed design to include an input value
+- Changed layout of printed output
+
+## [2025.09.18]
+
+### Added
+
+- Designed an inventory component
+- Designed a slot machine component
+- Designed a fishing component
+
 ## [2024.12.30]
 
+### Added
+
 - Added table-based rubrics to all 6 parts of the project
+
+### Updated
+
 - Updated gitignore to exclude more files
 - Fixed image markdown in the interfaces document
 
@@ -103,25 +145,6 @@ the following form: YYYY.0M.0D.
 - Created a README at the root to explain how to use the template repo
 - Created initial drafts of the six portfolio assessments
 - Added READMEs to key folders like `test` and `lib` to explain their purpose
-
-## [2025.09.18]
-
-### Added
-
-- Designed an inventory component
-- Designed a slot machine component
-- Designed a fishing component
-
-## [2025.10.09]
-
-### Added
-
-- Designed a proof of concept for slot machine component
-
-### Updated
-
-- Changed design to include an input value
-- Changed layout of printed output
 
 ```
 
