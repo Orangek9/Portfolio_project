@@ -45,7 +45,8 @@ gameLoop(SimpleReader in, SimpleWriter out) — full user interaction cycle
 
 ## Component Organization
 
-text
+```md
+SlotMachineProject
 │   .gitattributes
 │   .gitignore
 │   CHANGELOG.md
