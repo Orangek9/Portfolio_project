@@ -1,3 +1,5 @@
+package components.slotmachine;
+
 import components.simplewriter.SimpleWriter;
 import components.standard.Standard;
 
@@ -40,5 +42,16 @@ public interface SlotMachineKernel extends Standard<SlotMachine> {
      * @ensures result is true if each element in array are equal
      */
     boolean isWin();
+
+    /**
+     * Sets the spin results to the given array.
+     *
+     * @requires spin != null and spin.length == 3 and 1 <= spin[i] <= 9 for all
+     *           valid index i
+     * @param spin
+     *            the array of spin results
+     * @ensures $this.rep = spin
+     */
+    void setSpin(int[] spin);
 
 }

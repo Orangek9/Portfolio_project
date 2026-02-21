@@ -1,3 +1,5 @@
+package components.slotmachine;
+
 import components.simplereader.SimpleReader;
 import components.simplewriter.SimpleWriter;
 
@@ -21,12 +23,9 @@ public interface SlotMachine extends SlotMachineKernel {
     /**
      * Reports player's score and increments player's score if game is won.
      *
-     * @param spin
-     *            the array representing the spin result
-     * @requires spin != null
      * @return an integer representing the updated score
      * @ensures the score is incremented if win condition is met, or keep
      *          current score if not
      */
-    int score(int[] spin);
+    int score();
 }
